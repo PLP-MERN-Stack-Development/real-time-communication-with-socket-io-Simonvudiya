@@ -1,0 +1,5 @@
+/* minimal login css */
+.login-container { display:flex; height:100vh; align-items:center; justify-content:center; }
+.login-card { padding:20px; border-radius:8px; background:#fff; box-shadow:0 2px 8px rgba(0,0,0,0.08); }
+.form-group { margin-bottom:12px; }
+.login-button { padding:8px 12px; }

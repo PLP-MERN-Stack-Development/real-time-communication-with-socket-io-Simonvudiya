@@ -1,0 +1,3 @@
+/* minimal MessageList css */
+.message-list { padding:8px; overflow:auto; }
+.typing-indicator { font-style:italic; color:#666; padding:8px 0; }

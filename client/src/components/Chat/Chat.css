@@ -1,0 +1,7 @@
+/* minimal styles for Chat component */
+.chat-container { display:flex; flex-direction:column; height:100%; }
+.chat-header { display:flex; justify-content:space-between; padding:8px; background:#f7f7f7; border-bottom:1px solid #eee; }
+.chat-content { display:flex; flex:1; }
+.main-chat { flex:1; padding:12px; overflow:auto; }
+.sidebar { width:220px; background:#fafafa; border-left:1px solid #eee; padding:8px; }
+.icon-button { margin-left:6px; }

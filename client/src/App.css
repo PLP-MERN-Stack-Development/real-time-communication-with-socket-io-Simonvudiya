@@ -1,0 +1,7 @@
+/* minimal app css to avoid missing import errors */
+body { margin: 0; font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+.app { height: 100vh; display: flex; flex-direction: column; }
+.connection-status { position: fixed; right: 8px; bottom: 8px; padding: 6px 10px; border-radius: 6px; background: rgba(0,0,0,0.6); color: #fff; }
+.connection-status.connected { background: rgba(0,128,0,0.75); }
+.connection-status.disconnected { background: rgba(128,0,0,0.75); }
+.error-banner { background: #ffdddd; color: #900; padding: 8px 12px; margin: 8px; border-radius: 6px; }
